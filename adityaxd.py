@@ -1,4 +1,4 @@
-# coding:utf-100
+
 #/usr/bin/python
 try:
 	import json
