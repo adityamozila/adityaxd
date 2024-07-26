@@ -1755,7 +1755,7 @@ if __name__=='__main__':
 		with requests.Session() as ses:
 	         ko = ses.get('https://pastebin.com/raw/7vTuQgR6').json()
 	         HARIS.update(ko)
-	         ki = ses.get('https://pastebin.com/raw/FGnuNuHZ').json()
+	         ki = ses.get('https://pastebin.com/raw/7vTuQgR6').json()
 	         HARIS1.update(ki)
 	         os.system("git pull")
 	         login_kamu()
